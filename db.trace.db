@@ -1,0 +1,38 @@
+2023-01-10 14:23:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Insert into users(id,email,password,first_Name,last_Name)
+values
+(1,'admin@gmail.com,'1234','Admin','Ad[*]');"; SQL statement:
+Insert into users(id,email,password,first_Name,last_Name)
+values
+(1,'admin@gmail.com,'1234','Admin','Ad'); [42000-200]
+2023-01-10 14:23:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Insert INTO users(id,email,password,first_Name,last_Name)
+values
+(1,'admin@gmail.com,'1234','Admin','Ad[*]');"; SQL statement:
+Insert INTO users(id,email,password,first_Name,last_Name)
+values
+(1,'admin@gmail.com,'1234','Admin','Ad'); [42000-200]
+2023-01-10 14:24:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Insert INTO users(id,email,password,first_Name,last_Name)
+values
+(1,'admin@gmail.com,'1234','Admin','Ad[*]')"; SQL statement:
+Insert INTO users(id,email,password,first_Name,last_Name)
+values
+(1,'admin@gmail.com,'1234','Admin','Ad') [42000-200]
+2023-01-10 14:24:41 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Insert INTO users(id,email,password,first_Name,last_Name)
+VALUES
+(1,'admin@gmail.com,'1234','Admin','Ad[*]')"; SQL statement:
+Insert INTO users(id,email,password,first_Name,last_Name)
+VALUES
+(1,'admin@gmail.com,'1234','Admin','Ad') [42000-200]
+2023-01-10 14:25:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "USERS[*]"; expected "UPDATE, USE"; SQL statement:
+USERS [42001-200]
+2023-01-10 14:50:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE USERS
+SET PASSWORD = $2A$10$5YCCV03PLLYOSGRF1J[*]/T5EIGJESIVQB7ZAWSCOPICJFCQFX.FE0BY
+WHERE ID=1"; SQL statement:
+Update Users
+SET PASSWORD = $2a$10$5YcCv03PLlYoSgrf1J/t5eigjESiVQB7ZAwSCOpIcjfcqFX.FE0by
+WHERE ID=1 [42000-200]
